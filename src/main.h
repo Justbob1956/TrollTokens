@@ -40,7 +40,8 @@ static const int64_t MIN_TX_FEE =  100000;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t MAX_MONEY = 850000000 * COIN;
 static const int64_t COIN_YEAR_REWARD = 24 * CENT; // 24% 
-//block number of first POS block?
+//block number of first POS block? number below is block number where conversion to POW/POS is supposed to occur.
+//doesn't seem to work as conversion seems to be controlled by nMinStakeAge on line 50 in main.cpp
 static const int MODIFIER_INTERVAL_SWITCH = 202;
 
 
