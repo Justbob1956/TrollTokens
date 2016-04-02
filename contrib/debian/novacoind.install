@@ -1,0 +1,2 @@
+debian/bin/TrollTokensd usr/bin
+src/TrollTokensd usr/lib/TrollTokens

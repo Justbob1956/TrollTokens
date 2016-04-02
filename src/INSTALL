@@ -1,0 +1,9 @@
+Building TrollTokens
+
+See doc/readme-qt.rst for instructions on building TrollTokens QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of TrollTokens.
+
+See doc/build-*.txt for instructions on building TrollTokensd,
+the intended-for-services, no-graphical-interface, reference
+implementation of TrollTokens.
