@@ -47,7 +47,7 @@ unsigned int nTargetSpacing = 3 * 60; // TrollTokens - 4 minute blocks
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 static const int64_t nDiffChangeTarget = 1;
 
-unsigned int nStakeMinAge = 24 * 60 * 60; // 24 hours
+unsigned int nStakeMinAge = 24 * 60 * 60; // 1 day
 unsigned int nStakeMaxAge = -1;  // unlimited
 unsigned int nModifierInterval = 10 * 60; // TrollTokens - time to elapse before new modifier is computed
 
@@ -1001,13 +1001,13 @@ int64_t GetProofOfWorkReward(int64_t nFees)
     {
         nSubsidy = 15 * COIN;
     }
-	    else if(pindexBest->nHeight+1 >= 10002  && pindexBest->nHeight+1 <= 20001)
+	    else if(pindexBest->nHeight+1 >= 10002  && pindexBest->nHeight+1 <= 15001)
     {
         nSubsidy = 20 * COIN;
     }
-        else if(pindexBest->nHeight+1 >= 20002)
+        else if(pindexBest->nHeight+1 >= 15001)
     {
-        nSubsidy = 10 * COIN;
+        nSubsidy = 1 * COIN;
     }
       
     if (fDebug && GetBoolArg("-printcreation"))
