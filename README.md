@@ -22,6 +22,7 @@ v1.2.2.3
 enabled autocheckpoint
 enabled alerts
 adjusted long term POW block reward
+new commit
 
 See bitcointalk.org TrollTokens thread for more info
 
