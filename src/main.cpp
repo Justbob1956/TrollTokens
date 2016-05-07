@@ -1001,11 +1001,11 @@ int64_t GetProofOfWorkReward(int64_t nFees)
     {
         nSubsidy = 15 * COIN;
     }
-	    else if(pindexBest->nHeight+1 >= 10002  && pindexBest->nHeight+1 <= 15001)
+	    else if(pindexBest->nHeight+1 >= 10002  && pindexBest->nHeight+1 <= 20001)
     {
         nSubsidy = 20 * COIN;
     }
-        else if(pindexBest->nHeight+1 >= 15001)
+        else if(pindexBest->nHeight+1 >= 20001)
     {
         nSubsidy = 1 * COIN;
     }

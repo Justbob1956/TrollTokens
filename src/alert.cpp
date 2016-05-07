@@ -19,7 +19,7 @@ using namespace std;
 map<uint256, CAlert> mapAlerts;
 CCriticalSection cs_mapAlerts;
 
-static const char* pszMainKey = "049d2a948945af28784b994e273f1d0dc8be497b55896ed14b83138deae48dd0af0d93ef5b90ea7bde94db77142eb1ab0326b094b9be92bce38b7ddfa4a74e22d8";
+static const char* pszMainKey = "04d379258417112c3d905c89eced23d8ff7406b43ba0fd9f00a72f7ff2fdadb1c340e11a03873fb7c7a402a1114beaf556ca9a0c96f74d4fbd623179ee72346cda";
                                  
 // TestNet alerts pubKey TrollTokens
 static const char* pszTestKey = "045d2dee35e0f1ca467639584fac5ad1d2da42a8e489791f031c6ce83c668bd16d3f49f4762b20996d50c97369db78ac5ff2d51b2ed263724f09e6e0345e4da450";

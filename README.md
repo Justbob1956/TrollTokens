@@ -18,6 +18,10 @@ RPC Port: 16384
 P2P Port: 16385
 
 Added DNS seed node
+v1.2.2.3
+enabled autocheckpoint
+enabled alerts
+adjusted long term POW block reward
 
 See bitcointalk.org TrollTokens thread for more info
 
