@@ -25,3 +25,8 @@ adjusted long term POW block reward
 
 See bitcointalk.org TrollTokens thread for more info
 
+New version in download folder
+TrollTokens-win-forceupdate.zip
+
+Refuses connections from old network protocol version 60014 clients.
+
